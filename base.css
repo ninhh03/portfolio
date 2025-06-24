@@ -1,0 +1,28 @@
+:root {
+    --accent-color: linear-gradient(159deg, #000080 0%, #00BFFF 100%);
+    --dark-color: #141212;
+    --gray-color: #9f9f9f;
+    --white-color: #ffffff;
+    --size-20: 20px;
+    --size-28: 28px;
+    --size-40: 40px;
+    --size-70: 70px;
+    --font-main: 'Poppins', sans-serif;
+    --font-sub: 'Space Grotesk', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
