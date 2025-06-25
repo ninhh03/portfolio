@@ -62,7 +62,6 @@
     .navbar__item:last-child {
         background-image: none;
     }
-
     .navbar__item:last-child a {
         color: var(--dark-color);
     }
