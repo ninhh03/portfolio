@@ -17,7 +17,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -25,4 +24,26 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.grid {
+    padding: 0px 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .grid {
+        padding: 0px 20px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .grid {
+        padding: 0px 80px;
+    }
 }
